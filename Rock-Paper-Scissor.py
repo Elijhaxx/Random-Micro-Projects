@@ -28,18 +28,3 @@ def check_win(player,computer):
 choices = get_choices()
 result = check_win(choices["player"],choices["computer"])
 print(result)
-
-
-# Algorithm : 
-# 1. A function called - get_choices
-# 2. variable called - player_choice that takes input from the user
-# 3. list variable called - options with options of the computer
-# 4. variable called computer choices - that prints random from variable options
-# 5. dictionary called choices - key value pair of player w player choice and computer with computer choice
-# 6. return choices
-# 7. function called - check_win that passes player and computer
-# 8. print with string concatination - player chose player computer chose ( f string)
-# 9. if statement - player = computer return tie 
-# 10. elif and if statements for the reamining cases
-# 11. variable choices - get_choices 
-# 12. result - checkwin function that passes choices of player and variable.
